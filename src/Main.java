@@ -39,10 +39,14 @@ public class Main
         System.out.println(me.toString());
         System.out.println(bmw.toString());
 
+
         Phone sony = new Phone("Sony",150);
         System.out.println(sony.toString());
         sony.TurnOn();
-        System.out.println(sony.toString());
+
+        Car toyota = new Car("Toyota","Prius",1500,"pink",1000.0);
+        toyota.TurnOn();
+
     }
 
 

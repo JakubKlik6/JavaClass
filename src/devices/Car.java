@@ -2,7 +2,7 @@ package devices;
 
 import java.util.Objects;
 
-public class Car extends AbstractDevice
+public class Car extends Devices
 {
     final String model;
     Integer carMileage;
@@ -51,5 +51,10 @@ public class Car extends AbstractDevice
     @Override
     public int hashCode() {
         return Objects.hash(producer, model, carMileage, color, value);
+    }
+
+    @Override
+    public void TurnOn() {
+        System.out.println("Turned On");
     }
 }
