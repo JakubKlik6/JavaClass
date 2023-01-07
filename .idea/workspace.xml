@@ -4,16 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18da7ffe-db1f-4723-80ec-44388bc81275" name="Changes" comment="task 7">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Rest/salleable.java" afterDir="false" />
+    <list default="true" id="18da7ffe-db1f-4723-80ec-44388bc81275" name="Changes" comment="task 8">
+      <change afterPath="$PROJECT_DIR$/src/creatures/Edbile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creatures/FarmAnimal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creatures/Feedable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creatures/Pet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Rest/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Rest/Human.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/devices/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devices/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/devices/Devices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devices/Devices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/devices/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devices/Phone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Rest/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creatures/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Rest/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Rest/Human.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,13 +42,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="devices" />
@@ -89,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673035907668</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="task 8">
+      <created>1673096938183</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1673096938183</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -106,6 +112,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="pc update" />
     <MESSAGE value="task 7" />
-    <option name="LAST_COMMIT_MESSAGE" value="task 7" />
+    <MESSAGE value="task 8" />
+    <option name="LAST_COMMIT_MESSAGE" value="task 8" />
   </component>
 </project>

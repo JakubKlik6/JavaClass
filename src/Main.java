@@ -1,5 +1,6 @@
-import Rest.Animal;
 import Rest.Human;
+import creatures.FarmAnimal;
+import creatures.Pet;
 import devices.Car;
 import devices.Phone;
 
@@ -8,13 +9,15 @@ public class Main
     public static void main(String[] args)
     {
 
-        Animal cat = new Animal("cat","Stefan");
-        Animal dog = new Animal("dog","Barry");
-        Animal elephant = new Animal("elephant","Jacek");
+        Pet cat = new Pet("cat","Stefan");
+        Pet dog = new Pet("dog","Barry");
+        FarmAnimal elephant = new FarmAnimal("elephant","Jacek");
 
         cat.AnimalData();
         dog.Feed();
         dog.TakeForWalk();
+
+
 
         Car audi = new Car("Audi","A5",1500,"gray",1000.0);
         Human me = new Human();
@@ -38,7 +41,6 @@ public class Main
         System.out.println(new Car("Bmw", "M2",0,"black", 2000.0).equals(new Car("Bmw", "M2",0,"black", 2000.0)));
 
         //ToString
-        System.out.println(cat.toString());
         System.out.println(me.toString());
         System.out.println(bmw.toString());
 
@@ -60,7 +62,7 @@ public class Main
         sony.sell(me,person1,50.0);
 
         me.pet = cat;
-        cat.sell(me, person1, 20.0);
+        cat.sell(me,person1,20.0);
 
         System.out.println(me.toString());
         System.out.println(person1.toString());

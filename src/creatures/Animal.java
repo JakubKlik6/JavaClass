@@ -1,6 +1,9 @@
-package Rest;
+package creatures;
 
-public class Animal implements salleable
+import Rest.Human;
+import Rest.salleable;
+
+public abstract class  Animal implements salleable, Feedable
 {
     private static final Double DEF_DOG_WEIGHT = 10.0;
     private static final Double DEF_CAT_WEIGHT = 5.0;
@@ -14,6 +17,7 @@ public class Animal implements salleable
 
     public Animal(String specie, String name)
     {
+
         this.specie = specie;
         this.name = name;
         this.isAlive = true;
@@ -101,4 +105,5 @@ public class Animal implements salleable
         }
         else System.out.println("Seller dont have pet to sell");
     }
+
 }
