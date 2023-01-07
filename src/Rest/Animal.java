@@ -1,4 +1,6 @@
-public class Animal
+package Rest;
+
+public class Animal implements salleable
 {
     private static final Double DEF_DOG_WEIGHT = 10.0;
     private static final Double DEF_CAT_WEIGHT = 5.0;
@@ -80,10 +82,23 @@ public class Animal
 
     @Override
     public String toString() {
-        return "Animal" + ": " +
-                "specie = '" + specie + '\'' +
+        return  "specie = '" + specie + '\'' +
                 ", name = '" + name + '\'' +
-                ", isAlive = " + isAlive +
                 ", weight = " + weight;
+    }
+
+    @Override
+    public void sell(Human seller, Human buyer, Double price) {
+        if (seller.pet != null){
+            if (buyer.cash >= price){
+                buyer.cash -= price;
+                seller.cash += price;
+                buyer.pet = seller.pet;
+                seller.pet = null;
+                System.out.println("Transaction complete");
+            }
+            else System.out.println("You don't have enough money");
+        }
+        else System.out.println("Seller dont have pet to sell");
     }
 }

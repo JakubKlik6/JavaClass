@@ -1,18 +1,27 @@
+package Rest;
+
 import devices.Car;
+import devices.Phone;
+
 
 public class Human
 {
-    private Double salary = 0.0;
+    private Double salary = 1000.0;
     String firstName;
     String lastName;
     public Car car;
-    Animal pet;
+    public Animal pet;
+    public Phone phone;
 
-    public Human(String firstName,String lastName, Car car)
+    public Double cash = this.salary;
+
+    public Human()
     {
         this.firstName = firstName;
         this.lastName = lastName;
-        this.car = car;
+        this.salary = salary;
+        this.cash = cash;
+
     }
 
     public void WhatIsYourName()
@@ -61,11 +70,12 @@ public class Human
 
     @Override
     public String toString() {
-        return "Human" + ": "+
-                "salary = " + salary +
+        return "Rest.Human" + ": "+
+                "salary = " + cash +
                 ", firstName = '" + firstName + '\'' +
                 ", lastName = '" + lastName + '\'' +
                 ", car = " + car +
-                ", pet = " + pet;
+                ", pet = " + pet +
+                ", phone = " + phone;
     }
 }

@@ -1,9 +1,12 @@
 package devices;
+import Rest.Human;
+import Rest.salleable;
 
 import java.util.Objects;
 
-public class Car extends Devices
-{
+
+public class Car extends Devices implements salleable {
+
     final String model;
     Integer carMileage;
     String color;
@@ -25,7 +28,7 @@ public class Car extends Devices
 
     @Override
     public String toString() {
-        return " " + "devices.Car" + " " + "producer = '" + producer + '\'' + ", model = '" + model + '\'' + ", car mileage = " + carMileage + ", color = '" + color + '\'';
+        return " " + "producer = '" + producer + '\'' + ", model = '" + model + '\'' + ", car mileage = " + carMileage + ", color = '" + color + '\'';
     }
 
     @Override
@@ -56,5 +59,21 @@ public class Car extends Devices
     @Override
     public void TurnOn() {
         System.out.println("Turned On");
+    }
+
+
+    @Override
+    public void sell(Human seller, Human buyer, Double price) {
+        if (seller.car != null){
+            if (buyer.cash >= price){
+                buyer.cash -= price;
+                seller.cash += price;
+                buyer.car = seller.car;
+                seller.car = null;
+                System.out.println("Transaction complete");
+            }
+            else System.out.println("You don't have enough money");
+        }
+        else System.out.println("Seller dont have car to sell");
     }
 }

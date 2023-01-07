@@ -1,3 +1,5 @@
+import Rest.Animal;
+import Rest.Human;
 import devices.Car;
 import devices.Phone;
 
@@ -5,6 +7,7 @@ public class Main
 {
     public static void main(String[] args)
     {
+
         Animal cat = new Animal("cat","Stefan");
         Animal dog = new Animal("dog","Barry");
         Animal elephant = new Animal("elephant","Jacek");
@@ -14,7 +17,7 @@ public class Main
         dog.TakeForWalk();
 
         Car audi = new Car("Audi","A5",1500,"gray",1000.0);
-        Human me = new Human("Jakub","Klik",audi);
+        Human me = new Human();
 
         Car bmw = new Car("Bmw", "M2",0,"black", 2000.0);
 
@@ -46,6 +49,21 @@ public class Main
 
         Car toyota = new Car("Toyota","Prius",1500,"pink",1000.0);
         toyota.TurnOn();
+
+
+        System.out.println("\nTrades:\n");
+        Human person1 = new Human();
+        person1.car = toyota;
+        toyota.sell(person1,me,150.0);
+
+        me.phone = sony;
+        sony.sell(me,person1,50.0);
+
+        me.pet = cat;
+        cat.sell(me, person1, 20.0);
+
+        System.out.println(me.toString());
+        System.out.println(person1.toString());
 
     }
 
