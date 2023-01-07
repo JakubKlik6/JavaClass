@@ -5,7 +5,7 @@ import Rest.salleable;
 import java.util.Objects;
 
 
-public class Car extends Devices implements salleable {
+public abstract class Car extends Devices implements salleable {
 
     final String model;
     Integer carMileage;
@@ -76,4 +76,6 @@ public class Car extends Devices implements salleable {
         }
         else System.out.println("Seller dont have car to sell");
     }
+
+    public abstract void refuel();
 }

@@ -1,8 +1,10 @@
 import Rest.Human;
 import creatures.FarmAnimal;
 import creatures.Pet;
-import devices.Car;
-import devices.Phone;
+import devices.*;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class Main
 {
@@ -19,10 +21,10 @@ public class Main
 
 
 
-        Car audi = new Car("Audi","A5",1500,"gray",1000.0);
+        Diesel audi = new Diesel("Audi","A5",1500,"gray",1000.0);
         Human me = new Human();
 
-        Car bmw = new Car("Bmw", "M2",0,"black", 2000.0);
+        LPG bmw = new LPG("Bmw", "M2",0,"black", 2000.0);
 
         me.setSalary(150000.0);
         me.getSalary();
@@ -30,7 +32,7 @@ public class Main
         me.setCar(bmw);
         System.out.println(me.getCar());
 
-        Car audi2 = new Car("Audi","A5",1500,"gray",1000.0);
+        Electric audi2 = new Electric("Audi","A5",1500,"gray",1000.0);
         //Equals method
         System.out.println(audi.equals(audi2));
         System.out.println(audi.equals(bmw));
@@ -38,7 +40,7 @@ public class Main
         System.out.println(audi.hashCode());
         System.out.println(audi2.hashCode());
         //Equals method
-        System.out.println(new Car("Bmw", "M2",0,"black", 2000.0).equals(new Car("Bmw", "M2",0,"black", 2000.0)));
+        System.out.println(new LPG("Bmw", "M2",0,"black", 2000.0).equals(new LPG("Bmw", "M2",0,"black", 2000.0)));
 
         //ToString
         System.out.println(me.toString());
@@ -49,7 +51,7 @@ public class Main
         System.out.println(sony.toString());
         sony.TurnOn();
 
-        Car toyota = new Car("Toyota","Prius",1500,"pink",1000.0);
+        Electric toyota = new Electric("Toyota","Prius",1500,"pink",1000.0);
         toyota.TurnOn();
 
 
@@ -66,6 +68,15 @@ public class Main
 
         System.out.println(me.toString());
         System.out.println(person1.toString());
+
+        sony.installAnnApp("NBA");
+        sony.installAnnApp("Instagram",1.9);
+        sony.installAnnApp("Whatsapp",3.9,"www.whatsapp.com");
+
+        List NameList = new ArrayList<String>();
+        NameList.add("Instagram");
+        NameList.add("NBA");
+        sony.installAnnApp(NameList);
 
     }
 

@@ -1,11 +1,16 @@
 package devices;
+
 import Rest.Human;
 import Rest.salleable;
+
+import java.util.List;
 
 public class Phone extends Devices implements salleable {
 
     Integer price;
-
+    static final String appAdress = "www.appServer.com";
+    static final String protocol = "http";
+    static final Double version = 1.0;
 
     public Phone(String producer,Integer price){
         this.producer = producer;
@@ -38,6 +43,16 @@ public class Phone extends Devices implements salleable {
         else System.out.println("Seller dont have phone to sell");
 
         }
+
+        public void installAnnApp(String name){System.out.println("Installation complete!");}
+
+        public void installAnnApp(String name, Double version){System.out.println("Installation complete!");}
+
+        public void installAnnApp(String name, Double version, String urlAdress){System.out.println("Installation complete!");}
+
+        public void installAnnApp(List<String> nameList){System.out.println("Installation complete!");}
+
+        public void installAnnApp(Object object){System.out.println("Installation complete!");}
 
 
 }
