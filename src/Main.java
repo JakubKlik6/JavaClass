@@ -16,7 +16,7 @@ public class Main
         FarmAnimal elephant = new FarmAnimal("elephant","Jacek");
 
         cat.AnimalData();
-        dog.Feed();
+        dog.feed();
         dog.TakeForWalk();
 
 
@@ -76,7 +76,6 @@ public class Main
         List NameList = new ArrayList<String>();
         NameList.add("Instagram");
         NameList.add("NBA");
-        sony.installAnnApp(NameList);
 
     }
 

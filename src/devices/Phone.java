@@ -8,9 +8,9 @@ import java.util.List;
 public class Phone extends Devices implements salleable {
 
     Integer price;
-    static final String appAdress = "www.appServer.com";
+    static final String DEFAULT_SERVER_ADDRESS = "http://app.com";
     static final String protocol = "http";
-    static final Double version = 1.0;
+    static final Double DEFAULT_VERSION = 1.0;
 
     public Phone(String producer,Integer price){
         this.producer = producer;
@@ -44,15 +44,24 @@ public class Phone extends Devices implements salleable {
 
         }
 
-        public void installAnnApp(String name){System.out.println("Installation complete!");}
+        public void installAnnApp(String appName){
+            this.installAnnApp(appName,DEFAULT_VERSION);
+        }
 
-        public void installAnnApp(String name, Double version){System.out.println("Installation complete!");}
+        public void installAnnApp(String appName, Double appVersion){
+            this.installAnnApp(appName,appVersion,DEFAULT_SERVER_ADDRESS);
+        }
 
-        public void installAnnApp(String name, Double version, String urlAdress){System.out.println("Installation complete!");}
+        public void installAnnApp(String appName, Double appVersion, String server){
+            System.out.println("Connecting with server");
+            System.out.println("Downloading app");
+            System.out.println("Installation Complete");
+        }
 
-        public void installAnnApp(List<String> nameList){System.out.println("Installation complete!");}
-
-        public void installAnnApp(Object object){System.out.println("Installation complete!");}
-
+        public void installAnnApp(List<String> appNames){
+            for(String appName:appNames) {
+                this.installAnnApp(appNames);
+            }
+        }
 
 }

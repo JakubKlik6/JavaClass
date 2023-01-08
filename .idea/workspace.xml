@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18da7ffe-db1f-4723-80ec-44388bc81275" name="Changes" comment="task 9">
-      <change afterPath="$PROJECT_DIR$/src/devices/Diesel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devices/Electric.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devices/LPG.java" afterDir="false" />
+    <list default="true" id="18da7ffe-db1f-4723-80ec-44388bc81275" name="Changes" comment="task 10">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/creatures/FarmAnimal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creatures/FarmAnimal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/creatures/Feedable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creatures/Feedable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/devices/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devices/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creatures/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creatures/Animal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/devices/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devices/Phone.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,6 +28,19 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="e00e9eea-f9e4-4e1b-89e4-abe91d6d785f" />
+        <option name="url" value="https://github.com/JakubKlik6/JavaClass.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -103,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673100489889</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="task 10">
+      <created>1673105812274</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1673105812274</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -122,6 +137,7 @@
     <MESSAGE value="task 7" />
     <MESSAGE value="task 8" />
     <MESSAGE value="task 9" />
-    <option name="LAST_COMMIT_MESSAGE" value="task 9" />
+    <MESSAGE value="task 10" />
+    <option name="LAST_COMMIT_MESSAGE" value="task 10" />
   </component>
 </project>

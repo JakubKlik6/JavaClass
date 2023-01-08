@@ -41,7 +41,7 @@ public abstract class  Animal implements salleable, Feedable
         System.out.printf("\nName: %s\nWeight: %s\nSpecie: %s", this.name,this.weight,this.specie);
     }
 
-    public void Feed()
+    public void feed()
     {
         if(this.isAlive)
         {
@@ -62,6 +62,13 @@ public abstract class  Animal implements salleable, Feedable
             System.out.println("\nAre u good sir?");
         }
     }
+
+
+    public void feed(Double foodWeight)
+    {
+
+    }
+
 
     public void TakeForWalk()
     {
