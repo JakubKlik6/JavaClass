@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18da7ffe-db1f-4723-80ec-44388bc81275" name="Changes" comment="lab 3">
+    <list default="true" id="18da7ffe-db1f-4723-80ec-44388bc81275" name="Changes" comment="zadania z tablic">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Rest/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Rest/Human.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Rest/salleable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Rest/salleable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/devices/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devices/Car.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673207210357</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="zadania z tablic">
+      <created>1674299664193</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1674299664194</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -144,6 +154,7 @@
     <MESSAGE value="task 9" />
     <MESSAGE value="task 10" />
     <MESSAGE value="lab 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="lab 3" />
+    <MESSAGE value="zadania z tablic" />
+    <option name="LAST_COMMIT_MESSAGE" value="zadania z tablic" />
   </component>
 </project>
