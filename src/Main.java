@@ -77,6 +77,63 @@ public class Main
         NameList.add("Instagram");
         NameList.add("NBA");
 
+
+        //tablica 10 elementowa 101 - 110
+        int tab[] = new int[10];
+
+        int k = 0;
+
+        for (int i = 101; i <= 110; i++)
+        {
+            tab[k++] = i;
+        }
+        for(int i = 0;i < 10; i ++)
+        {
+            System.out.println(tab[i]);
+        }
+
+        System.out.println("\n--------------------\n");
+
+        //tablica 10 elementowa, co 10
+        int tab2[] = new int[10];
+
+        int j = 0;
+
+        for (int i = 10; i <= 101; i += 10)
+        {
+            tab2[j++] = i;
+        }
+        for(int i = 0;i < 10; i ++)
+        {
+            System.out.println(tab2[i]);
+        }
+
+
+        //tablica typu bool
+        boolean tab3[] = new boolean[20];
+        for(int i = 0; i< 20;i++)
+        {
+            if(i % 2 == 0)
+            {
+                tab3[i] = true;
+            }
+            else tab3[i] = false;
+        }
+        for(int i= 0;i<10;i++){
+            System.out.println(tab3[i]);
+        }
+
+        //100 elementowa tab int
+        int tab4[] = new int[100];
+        for(int i = 0; i< 100;i +=10){
+            tab4[i] = 0;
+            tab4[i+1] = 1;
+            tab4[i+2] = 2;
+        }
+        for(int i= 0;i<99;i++)
+        {
+            System.out.println(tab4[i]);
+        }
     }
 
 
