@@ -99,4 +99,22 @@ public class Human {
         }
         return hasACar;
     }
+
+    public boolean canHavemoreCars() {
+    }
+
+    public boolean hasLessMoneyThen(Double price) {
+    }
+
+    public void removeCar(Car car) {
+    }
+
+    public void addCar(Car car) {
+    }
+
+    public void addMoney(Double price) {
+    }
+
+    public void collectMoney(Double price) {
+    }
 }

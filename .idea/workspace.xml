@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18da7ffe-db1f-4723-80ec-44388bc81275" name="Changes" comment="zadania z tablic">
+    <list default="true" id="18da7ffe-db1f-4723-80ec-44388bc81275" name="Changes" comment="zajęcia nr 4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Rest/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Rest/Human.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Rest/salleable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Rest/salleable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/devices/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devices/Car.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674299664194</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="zajęcia nr 4">
+      <created>1674307769734</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1674307769734</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -155,6 +159,7 @@
     <MESSAGE value="task 10" />
     <MESSAGE value="lab 3" />
     <MESSAGE value="zadania z tablic" />
-    <option name="LAST_COMMIT_MESSAGE" value="zadania z tablic" />
+    <MESSAGE value="zajęcia nr 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="zajęcia nr 4" />
   </component>
 </project>
